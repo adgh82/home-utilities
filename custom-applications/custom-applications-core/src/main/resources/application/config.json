@@ -1,0 +1,12 @@
+{
+  "applications": {
+    "addressChange": {
+      "formPath": "",
+      "templatePath": ""
+    },
+    "phoneEmailChange": {
+      "formPath": "",
+      "templatePath": ""
+    }
+  }
+}
