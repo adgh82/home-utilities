@@ -9,4 +9,11 @@
       "templatePath": ""
     }
   }
+  "nav": {
+    "Home":"/homeurl",
+    "Request Type":{
+      "Address Change":"/url",
+      "eMail/Mobile Change":"/url"
+    }
+  }
 }

@@ -12,6 +12,10 @@
 		<module>custom-applications-web</module>
 	</modules>
 
+	<properties>
+		<springframework.version>4.3.3.RELEASE</springframework.version>
+	</properties>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -25,6 +29,11 @@
 				<artifactId>spring-test</artifactId>
 				<version>4.1.7.RELEASE</version>
 				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-context</artifactId>
+				<version>${springframework.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.slf4j</groupId>
