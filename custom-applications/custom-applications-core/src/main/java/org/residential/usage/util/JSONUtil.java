@@ -1,5 +1,6 @@
 package org.residential.usage.util;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -28,5 +29,13 @@ private static final Logger LOG = LoggerFactory.getLogger(JSONUtil.class);
 		LOG.debug("unmarshalling {} ", filePath);
 		Map<String, Object> unmarshalledFile = gson.fromJson(new FileReader(filePath), Map.class);
 		return unmarshalledFile;
+	}
+	
+	public static void marshaller(Object entity, File file) throws JsonIOException, IOException{
+		marshaller(entity, file.getAbsolutePath());
+	}
+	
+	public static Map<String,Object> unmarshaller(File file) throws JsonSyntaxException, JsonIOException, FileNotFoundException{
+		return unmarshaller(file.getAbsolutePath());
 	}
 }
