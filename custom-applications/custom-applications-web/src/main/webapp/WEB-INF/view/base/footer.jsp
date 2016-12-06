@@ -1,1 +1,0 @@
-<footer>&copy; Property belongs to Aditya</footer>
