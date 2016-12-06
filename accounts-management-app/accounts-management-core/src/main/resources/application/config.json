@@ -1,0 +1,19 @@
+{
+  "applications": {
+    "addressChange": {
+      "formPath": "",
+      "templatePath": ""
+    },
+    "phoneEmailChange": {
+      "formPath": "",
+      "templatePath": ""
+    }
+  }
+  "nav": {
+    "Home":"/homeurl",
+    "Request Type":{
+      "Address Change":"/url",
+      "eMail/Mobile Change":"/url"
+    }
+  }
+}
