@@ -1,6 +1,9 @@
 package org.residential.usage.util.model;
 
-public class Banks extends FinancialInstitution {
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection="bank")
+public class Bank extends FinancialInstitution {
 	
 	private String branchName;
 	private String ifsc;

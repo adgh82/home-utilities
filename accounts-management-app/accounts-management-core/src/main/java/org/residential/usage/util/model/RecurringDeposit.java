@@ -2,6 +2,9 @@ package org.residential.usage.util.model;
 
 import java.util.Date;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection="recurringdeposit")
 public class RecurringDeposit extends BankAccount {
 	
 	private Date firstInstallmentDate;

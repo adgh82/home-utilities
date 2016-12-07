@@ -5,7 +5,7 @@ import java.util.Date;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection="members")
+@Document(collection="member")
 public class Member extends AbstractEntity {
 	
 	private String memberId;

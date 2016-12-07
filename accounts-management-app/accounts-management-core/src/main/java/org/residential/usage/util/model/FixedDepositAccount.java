@@ -2,6 +2,9 @@ package org.residential.usage.util.model;
 
 import java.util.Date;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection="fixeddeposit")
 public class FixedDepositAccount extends BankAccount {
 	
 	private double principal;

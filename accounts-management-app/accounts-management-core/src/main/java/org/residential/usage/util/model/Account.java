@@ -4,7 +4,7 @@ import org.springframework.data.mongodb.core.mapping.DBRef;
 
 public abstract class Account extends AbstractEntity {
 	
-	//TODO create entities for mutual funds and insurance
+	//TODO create entities for create for Loan and Credit Card
 	
 	@DBRef
 	protected Member member;
