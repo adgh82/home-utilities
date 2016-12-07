@@ -8,12 +8,21 @@
       "formPath": "",
       "templatePath": ""
     }
-  }
+  },
   "nav": {
     "Home":"/homeurl",
     "Request Type":{
       "Address Change":"/url",
       "eMail/Mobile Change":"/url"
     }
+  },
+  "lookup":{
+    "mutualFundCat":["Equity","Debt","Balanced"],
+    "mutulaFundLockPeriodType":["Open-Ended","Close-Ended"],
+    "paymentFrequency":["Weekly","Monthly","Quarterly","Half-Yearly","Yearly"],
+    "insurancePolicyType":["Endowment","Pension","Term","ULIP"],
+    "loanType":["Home-Loan","Car-Loan"],
+    "cardAffiliate":["Master-Card","Visa","Maestro","Diners-Club","Discover","Amex"]
   }
+  
 }
